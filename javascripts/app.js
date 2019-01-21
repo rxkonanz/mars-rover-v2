@@ -136,7 +136,7 @@ function moveForward(rover){
 }
 
 function commands(str){
-  for(i = 0; i<=str.length; i++){
+  for(i = 0; i<str.length; i++){
     switch(str[i]){
       case "f":
         moveForward(rover);
